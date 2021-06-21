@@ -129,7 +129,7 @@ h1 {
   z-index: 99;
   top: 0;
   left: 0;
-  border-bottom: var(--color5) 2px solid;
+  border-bottom: var(--color5) 1px solid;
   box-shadow: rgb(0, 0, 0, 0.3) 2px 2px 15px;
 }
 
