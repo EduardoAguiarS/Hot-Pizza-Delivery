@@ -8,6 +8,7 @@
 img {
   width: 100%;
   height: auto;
+  border-radius: 0.5rem;
 }
 
 a {
@@ -43,6 +44,10 @@ h1 {
 .button {
 }
 
+.section {
+  padding: 5rem 0;
+}
+
 /* Container ****************************************/
 .container {
   width: 100%;
@@ -51,10 +56,13 @@ h1 {
 
 /* Logo ****************************************/
 .logo {
+  font: 700 1.31rem 'Poppins', sans-serif;
+  color: var(--bgmain);
 }
 
 /* Header ****************************************/
 .header-menu {
+  background: var(--color3);
 }
 
 .menu-nav {
@@ -63,3 +71,5 @@ h1 {
   justify-content: space-between;
   align-items: center;
 }
+
+/* Inicio ****************************************/
