@@ -5,7 +5,31 @@
   box-sizing: border-box;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* Root */
+:root {
+}
+
+/* Container */
+.container {
+  width: 100%;
+  margin: 0 1.5rem;
+}
+
+/* Logo */
+.logo {
+}
+
 /* Header */
-.header {
+.header-menu {
   height: 4.5rem;
+}
+
+.menu-nav {
+  display: flex;
+  justify-content: space-between;
 }
