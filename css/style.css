@@ -1,4 +1,4 @@
-/* Reset */
+/* Reset ****************************************/
 * {
   margin: 0;
   padding: 0;
@@ -10,21 +10,34 @@ img {
   height: auto;
 }
 
-/* Root */
+a {
+  text-decoration: none;
+}
+
+/* Base ****************************************/
+body {
+  font: 400 1rem 'DM Sans', sans-serif;
+}
+
+h1 {
+  font: 700 1.75rem 'Poppins', sans-serif;
+}
+
+/* Reset ****************************************/
 :root {
 }
 
-/* Container */
+/* Container ****************************************/
 .container {
   width: 100%;
   margin: 0 1.5rem;
 }
 
-/* Logo */
+/* Logo ****************************************/
 .logo {
 }
 
-/* Header */
+/* Header ****************************************/
 .header-menu {
   height: 4.5rem;
 }
