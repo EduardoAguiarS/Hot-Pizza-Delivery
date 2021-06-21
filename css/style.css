@@ -14,17 +14,21 @@ a {
   text-decoration: none;
 }
 
+p {
+  line-height: 1.6;
+}
 /* Root ****************************************/
 :root {
-  --bgmain: #fff7ec;
-  --bgsec: #fae5c8;
+  --bgmain: #ebebeb;
+  --bgsec: #d6cfc5;
   --color1: #b42323;
   --color2: #840f0f;
   --color3: #650909;
   --color4: #1c0808;
+  --color5: #efa434;
   --tcolor: #0e0e0e;
   --pcolor: #202020;
-  --radius: ;
+  --radius: 0.5rem;
 }
 
 /* Radius */
@@ -48,6 +52,11 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* Main */
+main {
+  margin-top: 4.5rem;
+}
+
 /* Textos */
 h1 {
   font: 700 1.75rem 'Poppins', sans-serif;
@@ -57,6 +66,23 @@ h1 {
 
 /* Button */
 .button {
+  background: var(--color1);
+  padding: 1.5rem 1.2rem;
+  color: var(--bgmain);
+  font-size: 1rem;
+  font-weight: bold;
+  box-shadow: rgb(0, 0, 0, 0.4) 2px 2px 15px;
+  transition: all 0.2s ease-in;
+}
+
+.button:hover {
+  color: var(--tcolor);
+  background: var(--color5);
+}
+
+.button i {
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
 }
 
 /* Sections */
@@ -66,7 +92,7 @@ h1 {
 
 /* Container */
 .container {
-  width: 100%;
+  max-width: 100%;
   margin: 0 1.5rem;
 }
 
@@ -80,11 +106,19 @@ h1 {
 .logo {
   font: 700 1.31rem 'Poppins', sans-serif;
   color: var(--bgmain);
+  display: block;
 }
 
 /* Header ****************************************/
 .header-menu {
-  background: var(--color3);
+  background: var(--bgmain);
+  overflow: hidden;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  border-bottom: #b42323 2px solid;
 }
 
 .menu-nav {
@@ -95,19 +129,44 @@ h1 {
 }
 
 /* Inicio ****************************************/
+.home {
+  overflow: hidden;
+}
+
 .home .container {
   margin: 0;
 }
 
-.home .texto {
+.home .text {
   margin: 0 1.5rem;
+  text-align: center;
+}
+
+.home .text h1 {
+  margin-bottom: 1rem;
+}
+
+.home .text p {
+  margin-bottom: 3rem;
+}
+
+.home .image {
+  position: relative;
 }
 
 .home .image img {
   position: relative;
   right: 2.9rem;
+  box-shadow: rgb(0, 0, 0, 0.4) 2px 2px 15px;
 }
 
 .home .image::before {
   content: '';
+  width: 100%;
+  height: 100%;
+  background: var(--color1);
+  position: absolute;
+  top: -16.8%;
+  left: 16.8%;
+  border-radius: 0.5rem 0 0 0;
 }
