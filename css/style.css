@@ -166,7 +166,7 @@ h1 {
   height: 100%;
   background: var(--color1);
   position: absolute;
-  top: -16.8%;
-  left: 16.8%;
+  top: -2.5rem;
+  left: 2.9rem;
   border-radius: 0.5rem 0 0 0;
 }
