@@ -8,14 +8,13 @@
 img {
   width: 100%;
   height: auto;
-  border-radius: 0.5rem;
 }
 
 a {
   text-decoration: none;
 }
 
-/* Reset ****************************************/
+/* Root ****************************************/
 :root {
   --bgmain: #fff7ec;
   --bgsec: #fae5c8;
@@ -25,6 +24,20 @@ a {
   --color4: #1c0808;
   --tcolor: #0e0e0e;
   --pcolor: #202020;
+  --radius: ;
+}
+
+/* Radius */
+.radius {
+  border-radius: 0.5rem;
+}
+
+.radius-r {
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.radius-l {
+  border-radius: 0.5rem 0 0 0.5rem;
 }
 
 /* Base ****************************************/
@@ -35,23 +48,32 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* Textos */
 h1 {
   font: 700 1.75rem 'Poppins', sans-serif;
   color: var(--tcolor);
   -webkit-font-smoothing: auto;
 }
 
+/* Button */
 .button {
 }
 
+/* Sections */
 .section {
   padding: 5rem 0;
 }
 
-/* Container ****************************************/
+/* Container */
 .container {
   width: 100%;
   margin: 0 1.5rem;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  gap: 2rem;
 }
 
 /* Logo ****************************************/
@@ -73,3 +95,19 @@ h1 {
 }
 
 /* Inicio ****************************************/
+.home .container {
+  margin: 0;
+}
+
+.home .texto {
+  margin: 0 1.5rem;
+}
+
+.home .image img {
+  position: relative;
+  right: 2.9rem;
+}
+
+.home .image::before {
+  content: '';
+}
