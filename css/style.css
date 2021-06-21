@@ -16,20 +16,28 @@ a {
 
 /* Reset ****************************************/
 :root {
-  --color1: #f1d0a2;
-  --color2: #b42323;
-  --color3: #840f0f;
-  --color4: #650909;
-  --color5: #1c0808;
+  --bgmain: #fff7ec;
+  --bgsec: #fae5c8;
+  --color1: #b42323;
+  --color2: #840f0f;
+  --color3: #650909;
+  --color4: #1c0808;
+  --tcolor: #0e0e0e;
+  --pcolor: #202020;
 }
 
 /* Base ****************************************/
 body {
   font: 400 1rem 'DM Sans', sans-serif;
+  color: var(--pcolor);
+  background: var(--bgmain);
+  -webkit-font-smoothing: antialiased;
 }
 
 h1 {
   font: 700 1.75rem 'Poppins', sans-serif;
+  color: var(--tcolor);
+  -webkit-font-smoothing: auto;
 }
 
 .button {
@@ -47,10 +55,11 @@ h1 {
 
 /* Header ****************************************/
 .header-menu {
-  height: 4.5rem;
 }
 
 .menu-nav {
+  height: 4.5rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
