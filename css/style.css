@@ -47,8 +47,8 @@ p {
 /* Base ****************************************/
 body {
   font: 400 1rem 'DM Sans', sans-serif;
-  color: var(--pcolor);
-  background: var(--bgmain);
+  color: var(--bgmain);
+  background: var(--tcolor);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -60,7 +60,7 @@ main {
 /* Textos */
 h1 {
   font: 700 1.75rem 'Poppins', sans-serif;
-  color: var(--tcolor);
+  color: var(--bgmain);
   -webkit-font-smoothing: auto;
 }
 
@@ -104,34 +104,32 @@ h1 {
 
 /* Divider */
 .divider {
-  height: 2px;
+  height: 1px;
   background: linear-gradient(
-      170deg,
-      var(--bgmain),
-      var(--color5),
-      var(--color1),
-      var(--bgmain)
-    ),
-    var(--bgmain) 30%;
+    170deg,
+    var(--tcolor),
+    var(--color5),
+    var(--color1),
+    var(--tcolor)
+  );
 }
 
 /* Logo */
 .logo {
   font: 700 1.31rem 'Poppins', sans-serif;
   color: var(--bgmain);
-  display: block;
 }
 
 /* Header ****************************************/
 .header-menu {
-  background: var(--bgmain);
+  background: var(--tcolor);
   overflow: hidden;
   width: 100%;
   position: fixed;
   z-index: 99;
   top: 0;
   left: 0;
-  border-bottom: #b42323 2px solid;
+  border-bottom: var(--color5) 2px solid;
   box-shadow: rgb(0, 0, 0, 0.3) 2px 2px 15px;
 }
 
