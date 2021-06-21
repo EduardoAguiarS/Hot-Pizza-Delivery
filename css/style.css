@@ -14,6 +14,13 @@ a {
   text-decoration: none;
 }
 
+/* Reset ****************************************/
+:root {
+  --color1: #f1d0a2;
+  --color2: #b42323;
+  --color3: #840f0f;
+}
+
 /* Base ****************************************/
 body {
   font: 400 1rem 'DM Sans', sans-serif;
@@ -23,8 +30,7 @@ h1 {
   font: 700 1.75rem 'Poppins', sans-serif;
 }
 
-/* Reset ****************************************/
-:root {
+.button {
 }
 
 /* Container ****************************************/
