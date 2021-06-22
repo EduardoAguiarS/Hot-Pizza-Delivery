@@ -140,10 +140,26 @@ nav ul li {
 
 nav ul li a {
   transition: all 0.2s ease-in;
+  position: relative;
 }
 
 nav ul li a:hover {
   color: var(--color1);
+}
+
+nav ul li a::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background: var(--color1);
+  position: absolute;
+  left: 0;
+  bottom: -1.5rem;
+  transition: width 0.2s ease-in;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
 }
 
 /* Mostrar Menu */
