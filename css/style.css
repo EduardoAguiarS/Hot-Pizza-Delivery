@@ -138,6 +138,14 @@ nav ul li {
   text-align: center;
 }
 
+nav ul li a {
+  transition: all 0.2s ease-in;
+}
+
+nav ul li a:hover {
+  color: var(--color1);
+}
+
 /* Mostrar Menu */
 nav .menu {
   opacity: 0;
@@ -145,6 +153,8 @@ nav .menu {
 }
 
 nav.show .menu {
+  display: grid;
+  align-items: center;
   opacity: 1;
   visibility: visible;
   background: var(--primary-color);
