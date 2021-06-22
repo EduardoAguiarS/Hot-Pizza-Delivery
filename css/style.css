@@ -19,6 +19,7 @@ p {
 }
 /* Root ****************************************/
 :root {
+  /* Colors */
   --bgmain: #ebebeb;
   --bgsec: #d6cfc5;
   --color1: #b42323;
@@ -28,20 +29,10 @@ p {
   --color5: #efa434;
   --tcolor: #0e0e0e;
   --pcolor: #202020;
+  /* Radius */
   --radius: 0.5rem;
-}
-
-/* Radius */
-.radius {
-  border-radius: 0.5rem;
-}
-
-.radius-r {
-  border-radius: 0 0.5rem 0.5rem 0;
-}
-
-.radius-l {
-  border-radius: 0.5rem 0 0 0.5rem;
+  --radius-r: 0 0.5rem 0.5rem 0;
+  --radius-l: 0.5rem 0 0 0.5rem;
 }
 
 /* Base ****************************************/
@@ -72,6 +63,7 @@ h1 {
   font-size: 1rem;
   font-weight: bold;
   box-shadow: rgb(0, 0, 0, 0.4) 2px 2px 15px;
+  border-radius: var(--radius);
   transition: all 0.2s ease-in;
 }
 
@@ -169,6 +161,7 @@ h1 {
 #home .image img {
   position: relative;
   right: 2.9rem;
+  border-radius: var(--radius-r);
   box-shadow: rgb(0, 0, 0, 0.4) 2px 2px 15px;
 }
 
@@ -180,5 +173,5 @@ h1 {
   position: absolute;
   top: -2.5rem;
   left: 2.9rem;
-  border-radius: 0.5rem 0 0 0;
+  border-radius: var(--radius-l);
 }
