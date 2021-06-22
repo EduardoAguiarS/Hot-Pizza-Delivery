@@ -183,9 +183,14 @@ nav.show ul.grid {
 }
 
 /* Toggle Buttons */
+.toggle {
+  color: var(--color1);
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
 nav .icon-close {
   display: none;
-  font-size: 1.5rem;
   position: absolute;
   right: 1.5rem;
   /* transition */
