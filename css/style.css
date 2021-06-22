@@ -187,15 +187,12 @@ nav .icon-close {
   display: none;
   font-size: 1.5rem;
   position: absolute;
+  right: 1.5rem;
   /* transition */
 }
 
-nav.show div.icon-close {
+nav.show .icon-close {
   display: block;
-}
-
-.toggle {
-  
 }
 
 /* Inicio ****************************************/
