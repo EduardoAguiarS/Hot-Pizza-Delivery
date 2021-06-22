@@ -20,15 +20,15 @@ p {
 /* Root ****************************************/
 :root {
   /* Colors */
-  --bgmain: #ebebeb;
-  --bgsec: #d6cfc5;
+  --texto-color: #ebebeb;
+  --stexto-color: #d1d1d1;
+  --primary-color: #0e0e0e;
+  --secundary-color: #202020;
   --color1: #b42323;
   --color2: #840f0f;
   --color3: #650909;
   --color4: #1c0808;
   --color5: #efa434;
-  --tcolor: #0e0e0e;
-  --pcolor: #202020;
   /* Radius */
   --radius: 0.5rem;
   --radius-r: 0 0.5rem 0.5rem 0;
