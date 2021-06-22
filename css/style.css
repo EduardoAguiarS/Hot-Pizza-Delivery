@@ -17,6 +17,11 @@ a {
 p {
   line-height: 1.6;
 }
+
+ul {
+  list-style: none;
+}
+
 /* Root ****************************************/
 :root {
   /* Colors */
@@ -127,6 +132,22 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+nav .menu {
+  opacity: 0;
+  visibility: hidden;
+}
+
+nav.show .menu {
+  opacity: 1;
+  visibility: visible;
+  background: var(--primary-color);
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 /* Inicio ****************************************/
