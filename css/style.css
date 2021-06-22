@@ -38,7 +38,7 @@ ul {
 
 /* Base ****************************************/
 body {
-  font: 400 1rem 'DM Sans', sans-serif;
+  font: 400 1rem "DM Sans", sans-serif;
   color: var(--stexto-color);
   background: var(--primary-color);
   -webkit-font-smoothing: antialiased;
@@ -51,7 +51,7 @@ main {
 
 /* Textos */
 .title {
-  font: 700 1.75rem 'Poppins', sans-serif;
+  font: 700 1.75rem "Poppins", sans-serif;
   color: var(--texto-color);
   -webkit-font-smoothing: auto;
 }
@@ -234,7 +234,7 @@ nav.show .icon-close {
 }
 
 #home .image::before {
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   background: var(--color1);
