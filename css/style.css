@@ -134,6 +134,11 @@ nav {
   align-items: center;
 }
 
+nav ul li {
+  text-align: center;
+}
+
+/* Mostrar Menu */
 nav .menu {
   opacity: 0;
   visibility: hidden;
@@ -148,6 +153,10 @@ nav.show .menu {
   position: fixed;
   top: 0;
   left: 0;
+}
+
+nav.show ul.grid {
+  gap: 4rem;
 }
 
 /* Inicio ****************************************/
