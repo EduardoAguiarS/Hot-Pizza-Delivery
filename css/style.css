@@ -196,7 +196,7 @@ nav .icon-close {
   /* transition */
 }
 
-nav.show .icon-close {
+nav.show div.icon-close {
   display: block;
 }
 
