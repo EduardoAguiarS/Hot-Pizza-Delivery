@@ -14,10 +14,6 @@ a {
   text-decoration: none;
 }
 
-p {
-  line-height: 1.6;
-}
-
 ul {
   list-style: none;
 }
@@ -54,10 +50,14 @@ main {
 }
 
 /* Textos */
-h1 {
+.title {
   font: 700 1.75rem 'Poppins', sans-serif;
   color: var(--texto-color);
   -webkit-font-smoothing: auto;
+}
+
+p {
+  line-height: 1.6;
 }
 
 /* Button */
