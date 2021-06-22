@@ -141,38 +141,38 @@ h1 {
 }
 
 /* Inicio ****************************************/
-.home {
+#home {
   overflow: hidden;
 }
 
-.home .container {
+#home .container {
   margin: 0;
 }
 
-.home .text {
+#home .text {
   margin: 0 1.5rem;
   text-align: center;
 }
 
-.home .text h1 {
+#home .text h1 {
   margin-bottom: 1rem;
 }
 
-.home .text p {
+#home .text p {
   margin-bottom: 3rem;
 }
 
-.home .image {
+#home .image {
   position: relative;
 }
 
-.home .image img {
+#home .image img {
   position: relative;
   right: 2.9rem;
   box-shadow: rgb(0, 0, 0, 0.4) 2px 2px 15px;
 }
 
-.home .image::before {
+#home .image::before {
   content: '';
   width: 100%;
   height: 100%;
