@@ -38,8 +38,8 @@ p {
 /* Base ****************************************/
 body {
   font: 400 1rem 'DM Sans', sans-serif;
-  color: var(--bgmain);
-  background: var(--tcolor);
+  color: var(--stexto-color);
+  background: var(--primary-color);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -51,7 +51,7 @@ main {
 /* Textos */
 h1 {
   font: 700 1.75rem 'Poppins', sans-serif;
-  color: var(--bgmain);
+  color: var(--texto-color);
   -webkit-font-smoothing: auto;
 }
 
@@ -59,7 +59,7 @@ h1 {
 .button {
   background: var(--color1);
   padding: 1.5rem 1.2rem;
-  color: var(--bgmain);
+  color: var(--texto-color);
   font-size: 1rem;
   font-weight: bold;
   box-shadow: rgb(0, 0, 0, 0.4) 2px 2px 15px;
@@ -68,7 +68,7 @@ h1 {
 }
 
 .button:hover {
-  color: var(--tcolor);
+  color: var(--primary-color);
   background: var(--color5);
 }
 
@@ -99,22 +99,21 @@ h1 {
   height: 1px;
   background: linear-gradient(
     170deg,
-    var(--tcolor),
+    var(--primary-color),
     var(--color5),
     var(--color1),
-    var(--tcolor)
+    var(--primary-color)
   );
 }
 
 /* Logo */
 .logo {
-  font: 700 1.31rem 'Poppins', sans-serif;
-  color: var(--bgmain);
+  display: block;
 }
 
 /* Header ****************************************/
 .header-menu {
-  background: var(--tcolor);
+  background: var(--primary-color);
   overflow: hidden;
   width: 100%;
   position: fixed;
@@ -122,7 +121,6 @@ h1 {
   top: 0;
   left: 0;
   border-bottom: var(--color5) 1px solid;
-  box-shadow: rgb(0, 0, 0, 0.3) 2px 2px 15px;
 }
 
 .menu-nav {
