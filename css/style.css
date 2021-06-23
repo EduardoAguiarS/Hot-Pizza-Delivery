@@ -169,19 +169,15 @@ nav ul li a:hover::after {
 
 /* Mostrar Menu */
 nav .menu {
-  visibility: hidden;
-  opacity: 0;
   top: -20rem;
-  transition: top 0.3s;
+  transition: all 0.3s ease;
 }
 
-nav .menu .title {
-  font-size: 1.5rem;
+nav .menu ul {
+  display: none;
 }
 
 nav.show .menu {
-  visibility: visible;
-  opacity: 1;
   display: grid;
   align-items: center;
   background: var(--primary-color);
@@ -190,6 +186,10 @@ nav.show .menu {
   position: fixed;
   top: 0;
   left: 0;
+}
+
+nav.show .menu ul {
+  display: grid;
 }
 
 nav.show ul.grid {
