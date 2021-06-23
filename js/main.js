@@ -39,3 +39,21 @@ const swiper = new Swiper(".swiper-container", {
   keyboard: true,
   loop: true
 });
+
+// Scroll Reveal
+const scrollReveal = ScrollReveal({
+  origin: "top",
+  distance: "30px",
+  duration: 700,
+  reset: true
+});
+
+scrollReveal.reveal(
+  `#home .image, #home .text,
+  #about .image, #about .text,
+  #menu .text, #menu .cards,
+  #testimonials .text, #testimonials .testimonials,
+  #contact .text, #contact .links
+  `,
+  { interval: 200 }
+);
