@@ -68,7 +68,7 @@ p {
   color: var(--texto-color);
   font-size: 1rem;
   font-weight: bold;
-  box-shadow: rgb(0, 0, 0, 0.4) 2px 2px 15px;
+  box-shadow: rgb(0, 0, 0, 0.2) 0 0 10px;
   border-radius: var(--radius);
   transition: all 0.2s ease-in;
 }
@@ -280,7 +280,7 @@ nav.show div.icon-close {
   border-radius: var(--radius-l);
 }
 
-/* Sobre */
+/* Sobre ****************************************/
 #about .container {
   margin: 0;
 }
@@ -313,7 +313,7 @@ nav.show div.icon-close {
   border-radius: var(--radius-r);
 }
 
-/* Cardapio */
+/* Cardápio ****************************************/
 #menu header {
   text-align: center;
 }
@@ -358,4 +358,28 @@ nav.show div.icon-close {
   font-size: 1.125rem;
   color: var(--color1);
   margin-top: 0.3rem;
+}
+
+/* Depoimentos ****************************************/
+#testimonials blockquote {
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid var(--color1);
+  border-radius: var(--radius);
+  box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 10px;
+}
+
+#testimonials cite {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+#testimonials cite img {
+  width: 3.25rem;
+  border: #b42323 2px solid;
+  border-radius: 50%;
+  margin-right: 0.8rem;
+  align-items: center;
 }
