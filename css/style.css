@@ -209,7 +209,7 @@ nav .icon-close {
   visibility: hidden;
   right: 1.5rem;
   top: -1.5rem;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease;
 }
 
 nav.show div.icon-close {
