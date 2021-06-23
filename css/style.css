@@ -57,7 +57,7 @@ main {
 }
 
 p {
-  line-height: 1.6;
+  line-height: 1.2;
 }
 
 /* Button */
@@ -85,6 +85,10 @@ p {
 /* Sections */
 .section {
   padding: 5rem 0;
+}
+
+.section .title {
+  margin-bottom: 1rem;
 }
 
 /* Container */
@@ -253,10 +257,6 @@ nav.show div.icon-close {
   margin: 0 1.5rem;
 }
 
-#about .text h2 {
-  margin-bottom: 1rem;
-}
-
 #about .image {
   position: relative;
 }
@@ -275,4 +275,37 @@ nav.show div.icon-close {
   top: -8.3%;
   right: 33%;
   border-radius: var(--radius-r);
+}
+
+/* Cardapio */
+#menu header {
+  text-align: center;
+}
+
+#menu .button {
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 0.3rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  flex: 0 1 300px;
+  margin: 0 1rem 2rem 1rem;
+}
+
+.card img {
+  border-radius: var(--radius);
+}
+
+.card h3 {
+  font-size: 1.125rem;
+  color: var(--color1);
+  margin-top: 0.3rem;
 }
