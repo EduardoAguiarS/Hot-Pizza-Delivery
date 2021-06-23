@@ -106,6 +106,8 @@ p {
 
 /* Divider */
 .divider {
+  max-width: 80%;
+  margin: 0 auto;
   height: 1px;
   background: linear-gradient(
     170deg,
