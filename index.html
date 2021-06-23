@@ -7,6 +7,12 @@
     <!-- Title -->
     <title>Hot Pizza - Delivery</title>
 
+    <!-- SwiperJS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
     <!-- CSS Links -->
     <link rel="stylesheet" href="./css/style.css" />
 
@@ -195,55 +201,67 @@
               Depoimentos de quem já comeu as nossas pizzas.
             </h2>
           </header>
-          <div class="testimonials">
-            <div class="testimonial">
-              <blockquote>
-                <p>
-                  <span>&ldquo;</span>Lorem ipsum dolor, sit amet consectetur
-                  adipisicing elit. Ad mollitia ab deleniti sunt facilis saepe,
-                  laborum.
-                </p>
-                <cite
-                  ><img
-                    src="./img/users/Evelyn-Pereira.jpeg"
-                    alt="Evelyn Pereira"
-                  />Evelyn Pereira
-                </cite>
-              </blockquote>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <!-- Slide -->
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Ad mollitia ab deleniti sunt facilis
+                    saepe, laborum.
+                  </p>
+                  <cite
+                    ><img
+                      src="./img/users/Evelyn-Pereira.jpeg"
+                      alt="Evelyn Pereira"
+                    />Evelyn Pereira
+                  </cite>
+                </blockquote>
+              </div>
 
-              <blockquote>
-                <p>
-                  <span>&ldquo;</span>Lorem ipsum dolor, sit amet consectetur
-                  adipisicing elit. Ad mollitia ab deleniti sunt facilis saepe,
-                  laborum. Adipisicing ab deleniti elit.
-                </p>
-                <cite
-                  ><img
-                    src="./img/users/Eduarda-Camargo.jpeg"
-                    alt="Eduarda Camargo"
-                  />Eduarda Camargo
-                </cite>
-              </blockquote>
+              <!-- Slide -->
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Ad mollitia ab deleniti sunt facilis
+                    saepe, laborum. Adipisicing ab deleniti elit.
+                  </p>
+                  <cite
+                    ><img
+                      src="./img/users/Eduarda-Camargo.jpeg"
+                      alt="Eduarda Camargo"
+                    />Eduarda Camargo
+                  </cite>
+                </blockquote>
+              </div>
 
-              <blockquote>
-                <p>
-                  <span>&ldquo;</span>Lorem ipsum dolor, sit amet consectetur
-                  adipisicing elit. Ad mollitia ab deleniti sunt facilis saepe,
-                  laborum.
-                </p>
-                <cite
-                  ><img
-                    src="./img/users/Lucas-Filip.jpeg"
-                    alt="Lucas Filip"
-                  />Lucas Filip</cite
-                >
-              </blockquote>
+              <!-- Slide -->
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Ad mollitia ab deleniti sunt facilis
+                    saepe, laborum.
+                  </p>
+                  <cite
+                    ><img
+                      src="./img/users/Lucas-Filip.jpeg"
+                      alt="Lucas Filip"
+                    />Lucas Filip</cite
+                  >
+                </blockquote>
+              </div>
             </div>
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
           </div>
         </div>
       </section>
     </main>
+    <!-- Scripts -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
   </body>
-  <!-- Scripts -->
-  <script src="./js/main.js"></script>
 </html>

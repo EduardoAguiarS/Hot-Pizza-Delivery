@@ -1,3 +1,4 @@
+// Ativa e desativa o navbar
 const nav = document.querySelector("#header nav");
 const toggle = document.querySelectorAll("nav .toggle");
 
@@ -7,6 +8,7 @@ for (const element of toggle) {
   });
 }
 
+// Remover o navbar ao clicar no link
 const links = document.querySelectorAll("nav ul li a");
 
 for (const link of links) {
@@ -15,6 +17,7 @@ for (const link of links) {
   });
 }
 
+//Sombra no scroll
 const header = document.querySelector("#header");
 const navHeight = header.offsetHeight;
 
@@ -24,4 +27,14 @@ window.addEventListener("scroll", function () {
   } else {
     header.classList.remove("scroll");
   }
+});
+
+// Slide
+const swiper = new Swiper(".swiper-container", {
+  slidesPerView: 1,
+  pagination: {
+    el: ".swiper-pagination"
+  },
+  mousewheel: true,
+  keyboard: true
 });

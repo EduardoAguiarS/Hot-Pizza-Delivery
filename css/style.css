@@ -365,7 +365,7 @@ nav.show div.icon-close {
   padding: 2rem;
   border-bottom: 2px solid var(--color1);
   border-radius: var(--radius);
-  box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 10px;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 15px;
 }
 
 #testimonials blockquote p {
