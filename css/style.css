@@ -429,3 +429,21 @@ nav.show div.icon-close {
   box-shadow: #b42323 0 0 10px;
   opacity: 1;
 }
+
+/* Contato ****************************************/
+#contact .text p {
+  margin-bottom: 3rem;
+}
+
+#contact .links {
+  margin-top: 1rem;
+}
+
+#contact .links ul li {
+  margin-bottom: 0.5rem;
+}
+
+#contact .links ul li i {
+  margin-right: 0.5rem;
+  color: var(--color1);
+}
