@@ -365,8 +365,15 @@ nav.show div.icon-close {
   padding: 2rem;
   border-bottom: 2px solid var(--color1);
   border-radius: var(--radius);
-  height: 300px;
   box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 15px;
+}
+
+#testimonials .container {
+  margin: 0;
+}
+
+#testimonials header {
+  margin: 0 1.5rem;
 }
 
 #testimonials blockquote p {

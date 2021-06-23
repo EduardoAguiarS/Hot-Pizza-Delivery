@@ -36,5 +36,6 @@ const swiper = new Swiper(".swiper-container", {
     el: ".swiper-pagination"
   },
   mousewheel: true,
-  keyboard: true
+  keyboard: true,
+  loop: true
 });
