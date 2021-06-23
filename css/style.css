@@ -316,6 +316,15 @@ nav.show div.icon-close {
   text-align: center;
 }
 
+#menu header p {
+  margin: 0 1.5rem;
+}
+
+#menu .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 #menu h2,
 #menu h3 {
   color: var(--color5);
@@ -336,7 +345,7 @@ nav.show div.icon-close {
 
 .card {
   flex: 0 1 300px;
-  margin: 0 1rem 2rem 1rem;
+  margin: 0 1.2rem 2.4rem 1.2rem;
 }
 
 .card img {
