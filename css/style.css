@@ -365,6 +365,7 @@ nav.show div.icon-close {
   padding: 2rem;
   border-bottom: 2px solid var(--color1);
   border-radius: var(--radius);
+  height: 300px;
   box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 15px;
 }
 
@@ -397,4 +398,27 @@ nav.show div.icon-close {
   border-radius: 50%;
   margin-right: 0.5rem;
   align-items: center;
+}
+
+/* Swiper */
+.swiper-slide {
+  height: auto;
+  padding: 4rem 1rem;
+}
+
+.swiper-pagination-bullet {
+  width: 0.7rem;
+  height: 0.7rem;
+  transition: all 0.2s ease-in;
+  position: relative;
+  background: var(--color1);
+  opacity: 0.3;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--color1);
+  width: 0.8rem;
+  height: 0.8rem;
+  box-shadow: #b42323 0 0 10px;
+  opacity: 1;
 }
