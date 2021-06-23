@@ -169,10 +169,19 @@ nav ul li a:hover::after {
 
 /* Mostrar Menu */
 nav .menu {
-  display: none;
+  visibility: hidden;
+  opacity: 0;
+  top: -20rem;
+  transition: top 0.3s;
+}
+
+nav .menu .title {
+  font-size: 1.5rem;
 }
 
 nav.show .menu {
+  visibility: visible;
+  opacity: 1;
   display: grid;
   align-items: center;
   background: var(--primary-color);
@@ -195,14 +204,18 @@ nav.show ul.grid {
 }
 
 nav .icon-close {
-  display: none;
   position: absolute;
+  opacity: 0;
+  visibility: hidden;
   right: 1.5rem;
-  /* transition */
+  top: -1.5rem;
+  transition: all 0.3s ease-in-out;
 }
 
 nav.show div.icon-close {
-  display: block;
+  top: 1.5rem;
+  opacity: 1;
+  visibility: visible;
 }
 
 /* Inicio ****************************************/
