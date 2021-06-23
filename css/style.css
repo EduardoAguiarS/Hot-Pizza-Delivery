@@ -363,23 +363,38 @@ nav.show div.icon-close {
 /* Depoimentos ****************************************/
 #testimonials blockquote {
   padding: 2rem;
-  margin-bottom: 1.5rem;
   border-bottom: 2px solid var(--color1);
   border-radius: var(--radius);
   box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 10px;
 }
 
+#testimonials blockquote p {
+  position: relative;
+  color: var(--texto-color);
+  text-indent: 1.875rem;
+}
+
+#testimonials blockquote p span {
+  font: 700 3rem serif;
+  color: var(--color1);
+  position: absolute;
+  top: -0.7rem;
+  left: -1.875rem;
+}
+
 #testimonials cite {
   display: flex;
+  font-style: normal;
+  font-weight: 500;
   align-items: center;
-  flex-wrap: wrap;
   margin-top: 1rem;
 }
 
 #testimonials cite img {
   width: 3.25rem;
+  height: 3.25rem;
   border: #b42323 2px solid;
   border-radius: 50%;
-  margin-right: 0.8rem;
+  margin-right: 0.5rem;
   align-items: center;
 }
