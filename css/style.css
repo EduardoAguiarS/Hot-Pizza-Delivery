@@ -132,6 +132,10 @@ p {
   border-bottom: var(--color5) 1px solid;
 }
 
+header.scroll {
+  box-shadow: 0px 0px 15px rgba(239, 164, 52, 0.3);
+}
+
 nav {
   height: 4.5rem;
   display: flex;
@@ -203,6 +207,18 @@ nav.show ul.grid {
   cursor: pointer;
 }
 
+nav .icon-menu {
+  transition: all 0.2s ease-in;
+}
+
+nav .icon-menu:hover {
+  color: var(--color5);
+}
+
+nav .icon-close:hover {
+  color: var(--color5);
+}
+
 nav .icon-close {
   position: absolute;
   opacity: 0;
@@ -267,6 +283,10 @@ nav.show div.icon-close {
   margin: 0;
 }
 
+#about h2 {
+  color: var(--color5);
+}
+
 #about .text {
   margin: 0 1.5rem;
 }
@@ -294,6 +314,11 @@ nav.show div.icon-close {
 /* Cardapio */
 #menu header {
   text-align: center;
+}
+
+#menu h2,
+#menu h3 {
+  color: var(--color5);
 }
 
 #menu .button {
