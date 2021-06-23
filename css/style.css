@@ -239,9 +239,40 @@ nav.show div.icon-close {
   height: 100%;
   background: var(--color1);
   position: absolute;
-  top: -2.5rem;
-  left: 2.9rem;
+  top: -16.8%;
+  left: 16.8%;
   border-radius: var(--radius-l);
 }
 
 /* Sobre */
+#about .container {
+  margin: 0;
+}
+
+#about .text {
+  margin: 0 1.5rem;
+}
+
+#about .text h2 {
+  margin-bottom: 1rem;
+}
+
+#about .image {
+  position: relative;
+}
+
+#about .image img {
+  position: relative;
+  box-shadow: rgb(0, 0, 0, 0.4) 2px 2px 15px;
+}
+
+#about .image::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: var(--color1);
+  position: absolute;
+  top: -8.3%;
+  right: 33%;
+  border-radius: var(--radius-r);
+}
