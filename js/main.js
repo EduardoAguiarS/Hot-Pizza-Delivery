@@ -67,3 +67,16 @@ function scrollSmooth(link) {
   const sectionId = link.getAttribute("href");
   document.querySelector(sectionId).scrollIntoView({ behavior: "smooth" });
 }
+
+// Go to top
+const goTop = document.querySelector(".go-top");
+const home = document.querySelector("#home");
+const homeHight = home.offsetHeight;
+
+window.addEventListener("scroll", function () {
+  if (this.window.scrollY >= homeHight) {
+    goTop.classList.add("show-top");
+  } else {
+    goTop.classList.remove("show-top");
+  }
+});

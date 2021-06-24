@@ -497,7 +497,7 @@ nav.show div.icon-close {
   opacity: 0;
   visibility: hidden;
   z-index: 999;
-  transition: all 0.2s ease;
+  transition: all 0.5s ease;
 }
 
 .go-top a {
@@ -505,7 +505,7 @@ nav.show div.icon-close {
   padding: 0.8rem;
   border-radius: var(--radius);
   background: rgba(0, 0, 0, 0.3);
-  transition: all 0.2s ease;
+  transition: all 0.2s ease-in;
 }
 
 .go-top a:hover {
