@@ -589,4 +589,21 @@ nav.show div.icon-close {
     margin: 0 1rem;
     text-align: center;
   }
+
+  /* contato */
+  #contact {
+    margin: 0 1rem;
+  }
+
+  .footer .container {
+    margin: 0 auto;
+  }
+
+  .footer .text {
+    margin-left: 1rem;
+  }
+
+  .footer .social {
+    margin-right: 1rem;
+  }
 }
