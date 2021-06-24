@@ -9,7 +9,7 @@ for (const element of toggle) {
 }
 
 // Remover o navbar ao clicar no link
-const links = document.querySelectorAll("nav ul li a");
+const links = document.querySelectorAll("nav ul li a, .go-top a");
 
 for (const link of links) {
   link.addEventListener("click", function (event) {
