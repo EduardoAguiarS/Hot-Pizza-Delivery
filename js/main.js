@@ -40,6 +40,10 @@ const swiper = new Swiper(".swiper-container", {
   pagination: {
     el: ".swiper-pagination"
   },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev"
+  },
   mousewheel: true,
   keyboard: true,
   loop: true
