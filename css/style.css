@@ -446,3 +446,44 @@ nav.show div.icon-close {
   margin-right: 0.5rem;
   color: var(--color1);
 }
+
+/* Footer ****************************************/
+.footer {
+  border-top: var(--color5) 1px solid;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.social ul {
+  display: flex;
+  align-items: center;
+}
+
+.footer .text img {
+  max-width: 80%;
+}
+
+.footer .text ul li + li {
+  margin-top: 0.5rem;
+}
+
+.social ul li + li {
+  margin-left: 0.5rem;
+}
+
+.social ul li a {
+  color: var(--stexto-color);
+  padding: 0.3rem;
+  font-size: 1.8rem;
+  transition: all 0.2s ease;
+}
+
+.social ul li a:hover {
+  color: var(--color1);
+}
