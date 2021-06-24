@@ -56,7 +56,8 @@ scrollReveal.reveal(
   #about .image, #about .text,
   #menu .text, #menu .cards,
   #testimonials .text, #testimonials .testimonials,
-  #contact .text, #contact .links
+  #contact .text, #contact .links,
+  #footer .text, #footer .social
   `,
   { interval: 200 }
 );
