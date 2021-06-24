@@ -5,6 +5,7 @@ const toggle = document.querySelectorAll("nav .toggle");
 for (const element of toggle) {
   element.addEventListener("click", function () {
     nav.classList.toggle("show");
+    goTop.classList.remove("show-top");
   });
 }
 
@@ -72,6 +73,7 @@ function scrollSmooth(link) {
 const goTop = document.querySelector(".go-top");
 const home = document.querySelector("#home");
 const homeHight = home.offsetHeight;
+const show = document.querySelector("nav.show");
 
 window.addEventListener("scroll", function () {
   if (this.window.scrollY >= homeHight) {
