@@ -531,11 +531,45 @@ nav.show div.icon-close {
     margin: 0 auto;
   }
 
+  /* Header menu */
   header .logo {
     margin-left: 1rem;
   }
 
   header .toggle {
     margin-right: 1rem;
+  }
+
+  /* home */
+  #home .container {
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex: 1;
+  }
+
+  #home .text {
+    margin: 0 1rem;
+    text-align: left;
+  }
+
+  #home .image img {
+    position: relative;
+    right: 0;
+    margin-left: 1rem;
+    max-width: 80%;
+    border-radius: var(--radius);
+  }
+
+  #home .image::before {
+    content: "";
+    width: 80%;
+    height: 100%;
+    background: var(--color1);
+    position: absolute;
+    top: -16.8%;
+    left: 16.8%;
+    border-radius: var(--radius);
   }
 }
