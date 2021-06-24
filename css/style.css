@@ -563,13 +563,20 @@ nav.show div.icon-close {
   }
 
   #home .image::before {
-    content: "";
     width: 80%;
     height: 100%;
-    background: var(--color1);
-    position: absolute;
-    top: -16.8%;
-    left: 16.8%;
+    border-radius: var(--radius);
+  }
+
+  /* about */
+  #about .container {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #about .image img {
+    width: 80%;
+    margin: 0 auto;
     border-radius: var(--radius);
   }
 }
