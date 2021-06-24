@@ -280,6 +280,10 @@ nav.show div.icon-close {
 }
 
 /* Sobre ****************************************/
+#about {
+  background: var(--secundary-color);
+}
+
 #about .container {
   margin: 0;
 }
@@ -360,11 +364,16 @@ nav.show div.icon-close {
 }
 
 /* Depoimentos ****************************************/
+#testimonials {
+  background: var(--secundary-color);
+}
+
 #testimonials blockquote {
   padding: 2rem;
   border-bottom: 2px solid var(--color1);
   border-radius: var(--radius);
   box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 15px;
+  background: var(--primary-color);
 }
 
 #testimonials .container {
@@ -449,7 +458,7 @@ nav.show div.icon-close {
 
 /* Footer ****************************************/
 .footer {
-  border-top: var(--color5) 1px solid;
+  background: var(--secundary-color);
 }
 
 .footer .container {

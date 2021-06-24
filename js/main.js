@@ -5,6 +5,7 @@ const toggle = document.querySelectorAll("nav .toggle");
 for (const element of toggle) {
   element.addEventListener("click", function () {
     nav.classList.toggle("show");
+    // go to top
     goTop.classList.remove("show-top");
   });
 }
