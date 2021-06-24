@@ -524,33 +524,18 @@ nav.show div.icon-close {
   visibility: visible;
 }
 
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 760px) and (max-width: 1024px) {
   /* container */
   .container {
     max-width: 900px;
     margin: 0 auto;
   }
 
-  /* Menu */
-  nav.container {
+  header .logo {
     margin-left: 1rem;
+  }
+
+  header .toggle {
     margin-right: 1rem;
-  }
-
-  nav .menu ul {
-    display: flex;
-  }
-
-  nav .menu ul li .title {
-    font-size: 1rem;
-  }
-
-  nav ul li a::after {
-    height: 5px;
-  }
-
-  nav .icon-menu,
-  nav .icon-close {
-    display: none;
   }
 }
