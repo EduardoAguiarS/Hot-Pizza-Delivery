@@ -12,8 +12,11 @@ for (const element of toggle) {
 const links = document.querySelectorAll("nav ul li a");
 
 for (const link of links) {
-  link.addEventListener("click", function () {
+  link.addEventListener("click", function (event) {
+    event.preventDefault();
     nav.classList.remove("show");
+    // Smooth
+    scrollSmooth(link);
   });
 }
 
@@ -57,3 +60,9 @@ scrollReveal.reveal(
   `,
   { interval: 200 }
 );
+
+// Scroll Behavior
+function scrollSmooth(link) {
+  const sectionId = link.getAttribute("href");
+  document.querySelector(sectionId).scrollIntoView({ behavior: "smooth" });
+}
