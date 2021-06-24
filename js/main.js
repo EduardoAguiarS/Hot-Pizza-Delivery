@@ -46,7 +46,13 @@ const swiper = new Swiper(".swiper-container", {
   },
   mousewheel: true,
   keyboard: true,
-  loop: true
+  loop: true,
+
+  breakpoints: {
+    768: {
+      slidesPerView: 2
+    }
+  }
 });
 
 // Scroll Reveal
@@ -81,7 +87,7 @@ const homeHight = home.offsetHeight;
 const show = document.querySelector("nav.show");
 
 window.addEventListener("scroll", function () {
-  if (this.window.scrollY >= homeHight) {
+  if (this.window.scrollY >= navHeight) {
     goTop.classList.add("show-top");
   } else {
     goTop.classList.remove("show-top");

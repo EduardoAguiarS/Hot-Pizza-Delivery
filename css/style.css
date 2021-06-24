@@ -579,4 +579,14 @@ nav.show div.icon-close {
     margin: 0 auto;
     border-radius: var(--radius);
   }
+
+  /* testimonials */
+  #testimonials .container {
+    margin: 0 auto;
+  }
+
+  #testimonials header {
+    margin: 0 1rem;
+    text-align: center;
+  }
 }
