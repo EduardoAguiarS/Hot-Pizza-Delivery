@@ -130,11 +130,11 @@ p {
   z-index: 99;
   top: 0;
   left: 0;
-  border-bottom: var(--color5) 1px solid;
+  border-bottom: var(--secundary-color) 1px solid;
 }
 
 header.scroll {
-  box-shadow: 0px 0px 15px rgba(239, 164, 52, 0.3);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
 }
 
 nav {
