@@ -84,7 +84,7 @@ p {
 
 /* Sections */
 .section {
-  padding: 5rem 0;
+  padding: calc(5rem + 4rem) 0;
 }
 
 .section .title {
@@ -503,7 +503,7 @@ nav.show div.icon-close {
   right: -10rem;
   opacity: 0;
   visibility: hidden;
-  z-index: 9;
+  z-index: 80;
   transition: all 0.5s ease-in-out;
 }
 
@@ -513,6 +513,7 @@ nav.show div.icon-close {
   border-radius: var(--radius);
   background: rgba(0, 0, 0, 0.3);
   transition: all 0.2s ease-in;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 0 10px;
 }
 
 .go-top a:hover {
@@ -642,6 +643,7 @@ nav.show div.icon-close {
   }
 }
 
+/* Tablet */
 @media (min-width: 760px) and (max-width: 1024px) {
   /* container */
   .container {
@@ -746,6 +748,11 @@ nav.show div.icon-close {
 
 /* PC */
 @media (min-width: 1025px) {
+  :root {
+    --title-font: 2.25rem;
+    --sub-title: 1.125rem;
+  }
+
   .section {
     padding: 7rem 0;
   }
@@ -793,6 +800,14 @@ nav.show div.icon-close {
     margin-right: 7.3rem;
   }
 
+  #home .text h1 {
+    font-size: var(--title-font);
+  }
+
+  #home .text p {
+    font-size: var(--sub-title);
+  }
+
   #home .image img {
     position: relative;
     max-width: 100%;
@@ -825,6 +840,10 @@ nav.show div.icon-close {
     flex: 2 0 600px;
   }
 
+  #about .text h2 {
+    font-size: var(--title-font);
+  }
+
   #about .image img {
     flex: 1;
     margin-left: 1rem;
@@ -834,6 +853,15 @@ nav.show div.icon-close {
   #about .image img::before {
     border-radius: var(--radius);
     right: 10%;
+  }
+
+  /* Menu */
+  #menu .text h2 {
+    font-size: var(--title-font);
+  }
+
+  #menu .text p {
+    font-size: var(--sub-title);
   }
 
   /* testimonials */
@@ -846,6 +874,10 @@ nav.show div.icon-close {
     text-align: center;
   }
 
+  #testimonials .text h2 {
+    font-size: var(--title-font);
+  }
+
   /* contato */
   #contact .container {
     margin: 0 auto;
@@ -854,6 +886,13 @@ nav.show div.icon-close {
   #contact .text,
   #contact .links {
     margin-left: 1rem;
+  }
+
+  #contact .text h2 {
+    font-size: var(--title-font);
+  }
+  #contact .text p {
+    font-size: var(--sub-title);
   }
 
   .cards {
