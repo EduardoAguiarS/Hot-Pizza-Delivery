@@ -84,7 +84,7 @@ p {
 
 /* Sections */
 .section {
-  padding: calc(5rem + 4rem) 0;
+  padding: 5rem 0;
 }
 
 .section .title {
@@ -754,7 +754,7 @@ nav.show div.icon-close {
   }
 
   .section {
-    padding: 7rem 0;
+    padding: calc(4rem + 2rem) 0;
   }
 
   /* container */
