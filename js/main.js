@@ -38,11 +38,11 @@ window.addEventListener("scroll", function () {
 const swiper = new Swiper(".swiper-container", {
   slidesPerView: 1,
   pagination: {
-    el: ".swiper-pagination"
+    el: ".swiper-pagination",
   },
   navigation: {
     nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev"
+    prevEl: ".swiper-button-prev",
   },
   mousewheel: true,
   keyboard: true,
@@ -50,17 +50,17 @@ const swiper = new Swiper(".swiper-container", {
 
   breakpoints: {
     768: {
-      slidesPerView: 2
-    }
-  }
+      slidesPerView: 2,
+    },
+  },
 });
 
 // Scroll Reveal
 const scrollReveal = ScrollReveal({
   origin: "top",
-  distance: "10px",
+  distance: "30px",
   duration: 500,
-  reset: true
+  reset: false,
 });
 
 scrollReveal.reveal(
